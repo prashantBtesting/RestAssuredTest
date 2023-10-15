@@ -24,13 +24,13 @@ public class payload {
 
         return "{\r\n" +
                 "  \"dashboard\": {\r\n" +
-                "    \"purchaseAmount\": 1162,\r\n" +
+                "    \"purchaseAmount\": 173,\r\n" +
                 "    \"website\": \"rahulshettyacademy.com\"\r\n" +
                 "  },\r\n" +
                 "  \"courses\": [\r\n" +
                 "    {\r\n" +
                 "      \"title\": \"Selenium Python\",\r\n" +
-                "      \"price\": 50,\r\n" +
+                "      \"price\": 52,\r\n" +
                 "      \"copies\": 6\r\n" +
                 "    },\r\n" +
                 "    {\r\n" +
@@ -54,8 +54,60 @@ public class payload {
                 "  ]\r\n" +
                 "}\r\n" +
                 "";
+    }
+    public static String putPlace(){
+        return "{\n" +
+                "\"place_id\":\"8d2573bdf6ceec0e474c5f388fa917fb\",\n" +
+                "\"address\":\"70 Summer walk, USA\",\n" +
+                "\"key\":\"qaclick123\"\n" +
+                "}\n";
+    }
 
-
-
+    public static String coursePrice(){
+      return "{\n" +
+              "\n" +
+              "\"dashboard\": {\n" +
+              "\n" +
+              "\"purchaseAmount\": 910,\n" +
+              "\n" +
+              "\"website\": \"rahulshettyacademy.com\"\n" +
+              "\n" +
+              "},\n" +
+              "\n" +
+              "\"courses\": [\n" +
+              "\n" +
+              "{\n" +
+              "\n" +
+              "\"title\": \"Selenium Python\",\n" +
+              "\n" +
+              "\"price\": 50,\n" +
+              "\n" +
+              "\"copies\": 6\n" +
+              "\n" +
+              "},\n" +
+              "\n" +
+              "{\n" +
+              "\n" +
+              "\"title\": \"Cypress\",\n" +
+              "\n" +
+              "\"price\": 40,\n" +
+              "\n" +
+              "\"copies\": 4\n" +
+              "\n" +
+              "},\n" +
+              "\n" +
+              "{\n" +
+              "\n" +
+              "\"title\": \"RPA\",\n" +
+              "\n" +
+              "\"price\": 45,\n" +
+              "\n" +
+              "\"copies\": 10\n" +
+              "\n" +
+              "}\n" +
+              "\n" +
+              "]\n" +
+              "\n" +
+              "}";
     }
 }
